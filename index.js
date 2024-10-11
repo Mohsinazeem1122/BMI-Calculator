@@ -3,4 +3,7 @@ const heightInput = document.getElementById("height");
 const result = document.getElementById("result");
 const resultStatement = document.getElementById("result-statement");
 
-function calculateBMI() {}
+function calculateBMI() {
+  let weight = weightInput.value;
+  let height = heightInput.value;
+}
