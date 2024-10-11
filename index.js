@@ -19,8 +19,8 @@ function calculateBMI() {
   } else if (BMI >= 25.0 && BMI < 40) {
     resultStatement.innerText = "You are overweight";
   } else if (BMI >= 18.5 && BMI < 25) {
-    resultStatement.innerText("You are normal");
+    resultStatement.innerText = "You are normal";
   } else {
-    resultStatement.innerText("You are underweight");
+    resultStatement.innerText = "You are underweight";
   }
 }
