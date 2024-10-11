@@ -15,7 +15,7 @@ function calculateBMI() {
     return;
   }
 
-  if (BMI >= 40.0) {
+  if (BMI >= 30) {
     resultStatement.innerText = "You are obese";
   } else if (BMI >= 25.0 && BMI < 40) {
     resultStatement.innerText = "You are overweight";
