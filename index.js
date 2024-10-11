@@ -6,4 +6,6 @@ const resultStatement = document.getElementById("result-statement");
 function calculateBMI() {
   let weight = weightInput.value;
   let height = heightInput.value;
+  let BMI = (weight / (height / 100) ** 2).toFixed(2);
+  result.innerText = BMI;
 }
