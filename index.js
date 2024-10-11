@@ -12,6 +12,7 @@ function calculateBMI() {
   if (!weight || !height) {
     alert("Please enter your weight and height");
     result.innerText = "";
+    return;
   }
 
   if (BMI >= 40.0) {
