@@ -10,7 +10,8 @@ function calculateBMI() {
   result.innerText = BMI;
 
   if (!weight || !height) {
-    return alert("Please enter your weight and height");
+    alert("Please enter your weight and height");
+    result.innerText = "";
   }
 
   if (BMI >= 40.0) {
